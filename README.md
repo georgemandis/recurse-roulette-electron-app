@@ -18,15 +18,19 @@ The site (recurse.roulette.com) works best in Chrome, but if you'd rather not do
 # Build Yourself
 
 To build for all platforms run:  
+
 `npm run build`
 
 For macOS:  
+
 `npm run build:mac`
 
 For Windows:  
+
 `npm run build:win`
 
 If you're not using Windows you'll need to install [Wine](https://www.winehq.org/) to build the Windows executables.
 
 For Linux:  
+
 `npm run build:linux`
