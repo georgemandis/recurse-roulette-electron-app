@@ -2,15 +2,17 @@
 
 The site (recurse.roulette.com) works best in Chrome, but if you'd rather not do that you can use the Electron-based desktop app instead:
 
-- Mac
+## Mac
   - [https://teambeard.s3.amazonaws.com/recurse-roulette-1.0.0.dmg](https://teambeard.s3.amazonaws.com/recurse-roulette-1.0.0.dmg)
-- Windows
+
+## Windows
   - [https://teambeard.s3.amazonaws.com/recurse-roulette-setup-1.0.0.exe](https://teambeard.s3.amazonaws.com/recurse-roulette-setup-1.0.0.exe)
-- Linux
+  
+## Linux
   - [https://teambeard.s3.amazonaws.com/recurse-roulette-1.0.0.AppImage](https://teambeard.s3.amazonaws.com/recurse-roulette-1.0.0.AppImage)
   - [https://teambeard.s3.amazonaws.com/recurse-roulette-desktop-app_1.0.0_amd64.snap](https://teambeard.s3.amazonaws.com/recurse-roulette-desktop-app_1.0.0_amd64.snap)
 
-## Build Yourself
+# Build Yourself
 
 To build for all platforms run:  
 `npm run build`
