@@ -3,16 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
+  "build": {
+    "productName": "Recurse Roulette"
+  },
   "scripts": {
-    "start": "electron .",    
-    "build:darwin": "npx electron-packager . 'Recurse Roulette' --platform=darwin --out=dist/ --icon=./icon.icns --overwrite",
-    "build:win32": "npx electron-packager . 'Recurse Roulette' --platform=win32 --out=dist/ --icon=./icon.ico --overwrite",
-    "build:linux": "npx electron-packager . 'Recurse Roulette' --platform=linux --out=dist/ --icon=./icon.png --overwrite",
-    "build": "npm run build:darwin && npm run build:win32 && npm run build:linux"
-  },  
+    "start": "electron .",
+    "build:mac": "npx electron-builder --mac",
+    "build:win": "npx electron-builder --win",
+    "build:linux": "npx electron-builder --linux",
+    "build": "npx electron-builder -mwl"
+  },
   "license": "ISC",
   "devDependencies": {
     "electron": "^8.2.5",
-    "electron-packager": "^14.2.1"
+    "electron-builder": "^22.6.0"
   }
 }
