@@ -5,7 +5,7 @@
 
 The site (recurse.roulette.com) works best in Chrome, but if you'd rather not do that you can use the Electron-based desktop app instead:
 
-## Mac
+## macOS
   - [https://teambeard.s3.amazonaws.com/recurse-roulette-1.0.0.dmg](https://teambeard.s3.amazonaws.com/recurse-roulette-1.0.0.dmg)
 
 ## Windows
